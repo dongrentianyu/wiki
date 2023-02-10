@@ -1,0 +1,223 @@
+{"tiddlers": {
+"$:/plugins/mabuqian/heti/\u5E38\u7528\u6807\u7B7E\u793A\u4F8B\u8868": {
+    "created": "20230209131054619",
+    "creator": "马不前",
+    "text": "<section class=\"section\">\n<table>\n            <tr>\n              <th style=\"width: 72px;\">类型</th>\n              <th style=\"width: 320px;\">标签</th>\n              <th style=\"width: 240px;\">效果</th>\n            </tr>\n            <tr>\n              <td>链接</td>\n              <td><code>&lt;a href=&quot;https://github.com/sivan/heti&quot; title=&quot;赫蹏&quot;&gt;heti.css&lt;/a&gt;</code></td>\n              <td><a href=\"https://github.com/sivan/heti\" title=\"赫蹏\">heti.css</a></td>\n            </tr>\n            <tr>\n              <td>缩写</td>\n              <td><code>&lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt;</code></td>\n              <td><abbr title=\"Cascading Style Sheets\">CSS</abbr></td>\n            </tr>\n            <tr>\n              <td>代码</td>\n              <td><code>&lt;code&gt;.heti { star: 5; }&lt;/code&gt;</code></td>\n              <td><code>.heti { star: 5; }</code></td>\n            </tr>\n            <tr>\n              <td>专名号</td>\n              <td><code>此时来自&lt;u title=&quot;位于山东省聊城市阳谷县城东&quot;&gt;景阳冈&lt;/u&gt;的&lt;u&gt;武松&lt;/u&gt;大喝一声：&lt;q&gt;纳命来！&lt;/q&gt;</code></td>\n              <td>此时来自<u title=\"位于山东省聊城市阳谷县城东\">景阳冈</u>的<u>武松</u>大喝一声：<q>纳命来！</q></td>\n            </tr>\n            <tr>\n              <td>文本变动</td>\n              <td><code>这次考试，我考了&lt;del datetime=&quot;17:00:00&quot;&gt;58&lt;/del&gt;&lt;ins datetime=&quot;18:15:00&quot;&gt;98&lt;/ins&gt;分呢！</code></td>\n              <td>这次考试，我考了<del datetime=\"17:00:00\">58</del><ins datetime=\"18:15:00\">98</ins>分呢！</td>\n            </tr>\n            <tr>\n              <td>文本更新</td>\n              <td><code>因为谁也不认识，所以最后我们决定念&lt;s&gt;d&iacute;&lt;/s&gt;t&iacute;。</code></td>\n              <td>因为谁也不认识，所以最后我们决定念<s>dí</s>tí。</td>\n            </tr>\n            <tr>\n              <td>引号</td>\n              <td><code>窃&middot;格瓦拉曾经说过：&lt;q&gt;打工是不可能打工的。&lt;/q&gt;</code></td>\n              <td>窃·格瓦拉曾经说过：<q>打工是不可能打工的。</q></td>\n            </tr>\n            <tr>\n              <td>术语</td>\n              <td><code>&lt;dfn&gt;窃&middot;格瓦拉&lt;/dfn&gt;，中国大陆网络红人、罪犯。被奉为百度「戒赌吧」400万会员的「精神领袖」。</code></td>\n              <td><dfn>窃·格瓦拉</dfn>，中国大陆网络红人、罪犯。被奉为百度「戒赌吧」400万会员的「精神领袖」。</td>\n            </tr>\n            <tr>\n              <td>标记</td>\n              <td><code>这道题&lt;mark&gt;必考&lt;/mark&gt;，你们爱记不记。</code></td>\n              <td>这道题<mark>必考</mark>，你们爱记不记。</td>\n            </tr>\n            <tr>\n              <td>强调</td>\n              <td><code>稳住，&lt;em&gt;我们能赢&lt;/em&gt;！</code></td>\n              <td>稳住，<em>我们能赢</em>！</td>\n            </tr>\n            <tr>\n              <td>着重号</td>\n              <td><code>我们&lt;span class=&quot;heti-em&quot;&gt;必将&lt;/span&gt;战胜这场疫情。</code></td>\n              <td>我们<span class=\"heti-em\">必将</span>战胜这场疫情。</td>\n            </tr>\n          </table>\n\t\t\t\t\t</section>\n\t\t\t\t\t\n有些样式与文档里的样式不一致，具体是什么原因我也不清楚。可去[[原文档|https://sivan.github.io/heti/#tags]]查看。",
+    "tags": "",
+    "title": "$:/plugins/mabuqian/heti/常用标签示例表",
+    "modified": "20230209174906087",
+    "modifier": "马不前",
+    "tmap.id": "ca6c4d1b-4886-4574-bd64-5d0e5950fe89"
+},
+
+"$:/plugins/mabuqian/heti/\u4E2D\u6587\u6392\u7248css": {
+    "created": "20230209094025447",
+    "creator": "马不前",
+    "text": "/*!\n * Project: Heti\n * URL: https://github.com/sivan/heti\n * Author: Sivan [sun.sivan@gmail.com]\n */@font-face{font-family:\"Heti Hei\";src:\"Heti Hei SC\",\"Heti Hei TC\",\"Heti Hei JP\",\"Heti Hei KR\"}@font-face{font-family:\"Heti Hei SC\";src:local(\"PingFang SC Regular\"),local(\"Heiti SC Regular\"),local(\"Microsoft YaHei\"),local(\"Source Han Sans CN Regular\"),local(\"Noto Sans CJK SC Regular\"),local(\"WenQuanYi Micro Hei\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Hei TC\";src:local(\"PingFang TC Regular\"),local(\"Heiti TC Regular\"),local(\"Microsoft Jhenghei\"),local(\"Source Han Sans HK Regular\"),local(\"Source Han Sans TW Regular\"),local(\"Noto Sans CJK TC Regular\"),local(\"WenQuanYi Micro Hei\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Hei JP\";src:local(\"Hiragino Sans GB W3\"),local(\"Source Han Sans JP Regular\"),local(\"Noto Sans CJK JP Regular\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Hei KR\";src:local(\"Source Han Sans KR Regular\"),local(\"Noto Sans CJK KR Regular\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Hei\";font-weight:200;src:\"Heti Hei SC Light\",\"Heti Hei TC Light\",\"Heti Hei JP Light\",\"Heti Hei KR Light\"}@font-face{font-family:\"Heti Hei SC Light\";font-weight:200;src:local(\"PingFang SC Light\"),local(\"Heiti SC Light\"),\"Heti Hei SC Light Fallback\",local(\"Source Han Sans CN Light\"),local(\"Noto Sans CJK SC Light\")}@font-face{font-family:\"Heti Hei TC Light\";font-weight:200;src:local(\"PingFang TC Light\"),local(\"Heiti TC Light\"),local(\"Microsoft Jhenghei Light\"),local(\"Source Han Sans HK Light\"),local(\"Source Han Sans TW Light\"),local(\"Noto Sans CJK TC Light\")}@font-face{font-family:\"Heti Hei JP Light\";font-weight:200;src:local(\"Source Han Sans JP Light\"),local(\"Noto Sans CJK JP Light\")}@font-face{font-family:\"Heti Hei KR Light\";font-weight:200;src:local(\"Source Han Sans KR Light\"),local(\"Noto Sans CJK KR Light\")}@font-face{font-family:\"Heti Hei SC Light Fallback\";font-weight:200;src:local(\"Microsoft YaHei\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Hei\";font-weight:600;src:\"Heti Hei SC Bold\",\"Heti Hei TC Bold\",\"Heti Hei JP Bold\",\"Heti Hei KR Bold\"}@font-face{font-family:\"Heti Hei SC Bold\";font-weight:600;src:local(\"PingFang SC Medium\"),local(\"Heiti SC Medium\"),\"Heti Hei SC Bold Fallback\",local(\"Source Han Sans CN Bold\"),local(\"Noto Sans CJK SC Bold\")}@font-face{font-family:\"Heti Hei TC Bold\";font-weight:600;src:local(\"PingFang TC Medium\"),local(\"Heiti TC Medium\"),local(\"Microsoft Jhenghei Bold\"),local(\"Source Han Sans HK Bold\"),local(\"Source Han Sans TW Bold\"),local(\"Noto Sans CJK TC Bold\")}@font-face{font-family:\"Heti Hei JP Bold\";font-weight:600;src:local(\"Hiragino Sans GB W6\"),local(\"Source Han Sans JP Bold\"),local(\"Noto Sans CJK JP Bold\")}@font-face{font-family:\"Heti Hei KR Bold\";font-weight:600;src:local(\"Source Han Sans KR Bold\"),local(\"Noto Sans CJK KR Bold\")}@font-face{font-family:\"Heti Hei SC Bold Fallback\";font-weight:600;src:local(\"Microsoft YaHei\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Hei Black\";font-weight:800;src:\"Heti Hei SC Black\",\"Heti Hei TC Black\",\"Heti Hei JP Black\",\"Heti Hei KR Black\"}@font-face{font-family:\"Heti Hei SC Black\";font-weight:800;src:local(\"Lantinghei SC Heavy\"),local(\"PingFang SC Semibold\"),local(\"Heiti SC Medium\"),\"Heti Hei SC Black Fallback\",local(\"Source Han Sans CN Heavy\"),local(\"Noto Sans CJK SC Heavy\")}@font-face{font-family:\"Heti Hei TC Black\";font-weight:800;src:local(\"Lantinghei TC Heavy\"),local(\"PingFang TC Semibold\"),local(\"Heiti TC Medium\"),local(\"Microsoft Jhenghei Bold\"),local(\"Source Han Sans HK Heavy\"),local(\"Source Han Sans TW Heavy\"),local(\"Noto Sans CJK TC Heavy\")}@font-face{font-family:\"Heti Hei JP Black\";font-weight:800;src:local(\"Hiragino Sans GB W6\"),local(\"Source Han Sans JP Heavy\"),local(\"Noto Sans CJK JP Heavy\")}@font-face{font-family:\"Heti Hei KR Black\";font-weight:800;src:local(\"Source Han Sans KR Heavy\"),local(\"Noto Sans CJK KR Heavy\")}@font-face{font-family:\"Heti Hei SC Black Fallback\";font-weight:800;src:local(\"Microsoft YaHei\"),local(\"Droid Sans Fallback\")}@font-face{font-family:\"Heti Song\";src:local(\"Songti SC Regular\"),local(\"Songti TC Regular\"),local(\"SimSun\")}@font-face{font-family:\"Heti Song\";font-weight:200;src:local(\"Songti SC Light\"),local(\"Songti TC Light\"),\"Heti Song Light Fallback\"}@font-face{font-family:\"Heti Song Light Fallback\";font-weight:200;src:local(\"SimSun\")}@font-face{font-family:\"Heti Song\";font-weight:600;src:local(\"Songti SC Bold\"),local(\"Songti TC Bold\"),\"Heti Song Bold Fallback\"}@font-face{font-family:\"Heti Song Bold Fallback\";font-weight:600;src:local(\"SimSun\")}@font-face{font-family:\"Heti Song Black\";font-weight:800;src:local(\"Songti SC Black\"),local(\"SimSun\")}@font-face{font-family:\"Heti Kai\";src:local(\"Kaiti SC Regular\"),local(\"Kaiti TC Regular\"),local(\"STKaiti\"),local(\"Kaiti\"),local(\"BiauKai\")}@font-face{font-family:\"Heti Kai\";font-weight:600;src:local(\"Kaiti SC Bold\"),local(\"Kaiti TC Bold\")}@font-face{font-family:\"Heti Kai Bold Fallback\";font-weight:600;src:local(\"STKaiti\"),local(\"Kaiti\") local(\"BiauKai\")}@font-face{font-family:\"Heti Kai Black\";font-weight:800;src:local(\"Kaiti SC Black\"),local(\"Kaiti TC Black\"),local(\"STKaiti\"),local(\"Kaiti\")}.heti{max-width:42em;font-size:16px;font-weight:400;-webkit-font-smoothing:subpixel-antialiased;line-height:1.5;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;letter-spacing:.02em}.heti::before,.heti::after{content:\"\";display:table}.heti::after{clear:both}.heti>*:first-child,.heti section>*:first-child,.heti td>*:first-child{margin-block-start:0 !important}.heti>*:last-child,.heti section>*:last-child,.heti td>*:last-child{margin-block-end:0 !important}.heti blockquote{margin-block-start:12px;margin-block-end:24px;margin-inline-start:32px;margin-inline-end:32px;padding-block-start:12px;padding-block-end:12px;padding-inline-start:16px;padding-inline-end:16px;background-color:rgba(0,0,0,.054)}@media(prefers-color-scheme: dark){.heti blockquote{background-color:rgba(255,255,255,.054)}}.heti figure{display:block;text-align:center}.heti figure>img{display:block;margin-inline-start:auto;margin-inline-end:auto}.heti hr{width:30%;height:1px;margin-block-start:48px;margin-block-end:47px;margin-inline-start:auto;margin-inline-end:auto;border:0;background-color:#ccc}@media(prefers-color-scheme: dark){.heti hr{background-color:#404040}}.heti p{margin-block-start:12px;margin-block-end:24px;text-align:justify}.heti p:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti p:not(:lang(zh)){text-align:start}.heti pre{margin-block-start:12px;margin-block-end:12px;margin-inline-start:0;margin-inline-end:0;padding-block-start:12px;padding-block-end:12px;padding-inline-start:16px;padding-inline-end:16px;overflow:auto;font-family:\"SFMono-Regular\",consolas,\"Liberation Mono\",menlo,courier,monospace,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";white-space:pre;word-wrap:normal;border-radius:4px;background-color:rgba(0,0,0,.054)}@media(prefers-color-scheme: dark){.heti pre{background-color:rgba(255,255,255,.054)}}.heti pre code{margin:0;padding:0;border:0;border-radius:0;background-color:rgba(0,0,0,0);color:inherit}.heti:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti:not(:lang(zh)){letter-spacing:0}.heti a,.heti abbr,.heti code,.heti heti-spacing,.heti [lang=en-US]{letter-spacing:normal}.heti h1,.heti h2,.heti h3,.heti h4,.heti h5,.heti h6{position:relative;margin:0;margin-block-start:24px;margin-block-end:12px;font-weight:600}.heti h1{margin-block-end:24px;font-size:32px;line-height:48px}.heti h2{font-size:24px;line-height:36px}.heti h3{font-size:20px;line-height:36px}.heti h4{font-size:18px;line-height:24px}.heti h5{font-size:16px;line-height:24px}.heti h6{font-size:14px;line-height:24px}.heti h1,.heti h2,.heti h3{letter-spacing:.05em}.heti h1:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti h1:not(:lang(zh)),.heti h2:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti h2:not(:lang(zh)),.heti h3:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti h3:not(:lang(zh)){letter-spacing:0}.heti h1+h2,.heti h2+h3,.heti h3+h4,.heti h4+h5,.heti h5+h6{margin-block-start:12px}.heti ul,.heti ol,.heti dl{margin-block-start:12px;margin-block-end:24px}.heti ul,.heti ol{padding-inline-start:32px}.heti ul ul,.heti ul ol,.heti ol ul,.heti ol ol{margin-block-start:0;margin-block-end:0}.heti ul{list-style-type:disc}.heti ol{list-style-type:decimal}.heti ul ul,.heti ol ul{list-style-type:circle}.heti ul ul ul,.heti ul ol ul,.heti ol ul ul,.heti ol ol ul{list-style-type:square}.heti li{list-style-type:unset}.heti table{box-sizing:border-box;table-layout:fixed;margin-block-start:12px;margin-block-end:24px;margin-inline-start:auto;margin-inline-end:auto;border-collapse:collapse;border-width:1px;border-style:solid;border-color:#ccc;word-break:break-word}@media(prefers-color-scheme: dark){.heti table{border-color:#404040}}.heti th,.heti td{padding-block-start:6px;padding-block-end:6px;padding-inline-start:8px;padding-inline-end:8px;border-width:1px;border-style:solid;border-color:#ccc}@media(prefers-color-scheme: dark){.heti th,.heti td{border-color:#404040}}.heti caption{caption-side:bottom;margin-block-start:2px;margin-block-end:-4px;font-size:14px;line-height:24px}.heti a{text-decoration:none}.heti a:hover{padding-block-end:1px;border-block-end:1px solid currentColor;text-decoration:none}.heti abbr[title]{padding-block-end:1px;border-block-end:1px dotted;text-decoration:none;cursor:help}.heti b,.heti strong{font-weight:600}.heti code{margin-inline-start:.25em;margin-inline-end:.25em;font-family:\"SFMono-Regular\",consolas,\"Liberation Mono\",menlo,courier,monospace,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";font-size:.875em}.heti dfn{font-weight:600}.heti dfn:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti dfn:not(:lang(zh)){font-weight:400}.heti em{font-weight:600}.heti figcaption{display:inline-block;vertical-align:top;font-size:14px;text-align:start}.heti i{font-style:italic}.heti ins,.heti u{padding-block-end:1px;border-block-end:1px solid;text-decoration:none}.heti mark{padding-block-start:2px;padding-block-end:2px;padding-inline-start:1px;padding-inline-end:1px;margin-inline-start:1px;margin-inline-end:1px;background-color:rgba(255,247,0,.88);color:inherit}@media(prefers-color-scheme: dark){.heti mark{background-color:rgba(77,74,0,.88)}}.heti q{quotes:\"「\" \"」\" \"『\" \"』\"}.heti q:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti q:not(:lang(zh)){quotes:initial;quotes:auto}.heti rt{font-size:.875em;font-weight:400}.heti small{font-size:.875em}.heti strong{font-weight:600}.heti sub,.heti sup{position:relative;margin-inline-start:.25em;margin-inline-end:.25em;font-size:.75em;font-family:\"Helvetica Neue\",helvetica,arial,\"Heti Hei\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";font-style:normal;line-height:1;vertical-align:baseline}.heti sub{bottom:-0.25em}.heti sup{top:-0.5em}.heti sup:target,.heti sup a:target{background-color:#dbedff}@media(prefers-color-scheme: dark){.heti sup:target,.heti sup a:target{background-color:#3a6188}}.heti summary{padding-inline-start:1em;outline:0;cursor:pointer}.heti summary::-webkit-details-marker{width:.6em;margin-inline-end:.4em}.heti u[title]{cursor:help;border-block-end-width:3px;border-block-end-style:double;border-block-end-color:rgba(0,0,0,.54)}@media(prefers-color-scheme: dark){.heti u[title]{border-block-end-color:rgba(255,255,255,.54)}}.heti address,.heti cite,.heti dfn,.heti dt,.heti em{font-style:normal}.heti address:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti address:not(:lang(zh)),.heti cite:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti cite:not(:lang(zh)),.heti dfn:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti dfn:not(:lang(zh)),.heti dt:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti dt:not(:lang(zh)),.heti em:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti em:not(:lang(zh)){font-style:italic}.heti abbr[title],.heti del,.heti ins,.heti s,.heti u{margin-inline-start:1px;margin-inline-end:1px}.heti,.heti--sans{font-family:\"Helvetica Neue\",helvetica,arial,\"Heti Hei\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--serif{font-family:\"Times New Roman\",times,\"Heti Song\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--classic{font-family:\"Times New Roman\",times,\"Heti Song\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--classic h1,.heti--classic h2,.heti--classic h3,.heti--classic h4,.heti--classic h5,.heti--classic h6{font-family:\"Times New Roman\",times,\"Heti Kai Black\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";font-weight:800}.heti--classic blockquote,.heti--classic cite,.heti--classic q{font-family:\"Times New Roman\",times,\"Heti Kai\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--classic figcaption,.heti--classic caption,.heti--classic th{font-family:\"Helvetica Neue\",helvetica,arial,\"Heti Hei\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--hei{font-family:\"Helvetica Neue\",helvetica,arial,\"Heti Hei\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--song{font-family:\"Times New Roman\",times,\"Heti Song\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--kai{font-family:\"Times New Roman\",times,\"Heti Kai\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--columns-1,.heti--columns-2,.heti--columns-3,.heti--columns-4,.heti--columns-16em,.heti--columns-20em,.heti--columns-24em,.heti--columns-28em,.heti--columns-32em,.heti--columns-36em,.heti--columns-40em,.heti--columns-44em,.heti--columns-48em,.heti comma{max-width:none;column-gap:2em}.heti--columns-1 p,.heti--columns-2 p,.heti--columns-3 p,.heti--columns-4 p,.heti--columns-16em p,.heti--columns-20em p,.heti--columns-24em p,.heti--columns-28em p,.heti--columns-32em p,.heti--columns-36em p,.heti--columns-40em p,.heti--columns-44em p,.heti--columns-48em p,.heti comma p{margin-block-start:6px;margin-block-end:12px;text-indent:2em}.heti--columns-1{column-count:1}.heti--columns-2{column-count:2}.heti--columns-3{column-count:3}.heti--columns-4{column-count:4}.heti--columns-16em{column-width:16em}.heti--columns-20em{column-width:20em}.heti--columns-24em{column-width:24em}.heti--columns-28em{column-width:28em}.heti--columns-32em{column-width:32em}.heti--columns-36em{column-width:36em}.heti--columns-40em{column-width:40em}.heti--columns-44em{column-width:44em}.heti--columns-48em{column-width:48em}.heti--vertical{max-width:none;max-height:42em;writing-mode:vertical-rl;letter-spacing:.125em}.heti--vertical h1,.heti--vertical h2,.heti--vertical h3,.heti--vertical h4,.heti--vertical h5,.heti--vertical h6{text-align:start}.heti--vertical q{quotes:\"「\" \"」\" \"『\" \"』\"}.heti--ancient,.heti--poetry{font-family:\"Times New Roman\",times,\"Heti Song\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}.heti--ancient h1,.heti--ancient h2,.heti--ancient h3,.heti--ancient h4,.heti--ancient h5,.heti--ancient h6,.heti--poetry h1,.heti--poetry h2,.heti--poetry h3,.heti--poetry h4,.heti--poetry h5,.heti--poetry h6{font-family:\"Times New Roman\",times,\"Heti Kai Black\",serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";font-weight:800;text-align:center}.heti--ancient h1 .heti-meta,.heti--ancient h2 .heti-meta,.heti--ancient h3 .heti-meta,.heti--ancient h4 .heti-meta,.heti--ancient h5 .heti-meta,.heti--ancient h6 .heti-meta,.heti--poetry h1 .heti-meta,.heti--poetry h2 .heti-meta,.heti--poetry h3 .heti-meta,.heti--poetry h4 .heti-meta,.heti--poetry h5 .heti-meta,.heti--poetry h6 .heti-meta{font-weight:400}@media screen and (min-width: 640px){.heti--ancient h1 .heti-meta,.heti--ancient h2 .heti-meta,.heti--ancient h3 .heti-meta,.heti--ancient h4 .heti-meta,.heti--ancient h5 .heti-meta,.heti--ancient h6 .heti-meta,.heti--poetry h1 .heti-meta,.heti--poetry h2 .heti-meta,.heti--poetry h3 .heti-meta,.heti--poetry h4 .heti-meta,.heti--poetry h5 .heti-meta,.heti--poetry h6 .heti-meta{position:absolute;line-height:inherit;text-indent:0;display:inline;margin-block-start:4px;margin-inline-start:8px}}.heti--ancient .heti-meta,.heti--poetry .heti-meta{line-height:24px;text-align:center;text-indent:0}.heti--ancient p{text-indent:2em}.heti--poetry p{text-align:center;text-indent:0}.heti--annotation p{margin-block-start:0;margin-block-end:0;line-height:2.25;text-indent:2em}.heti--annotation em{-webkit-text-emphasis:filled circle;-webkit-text-emphasis-position:under;text-emphasis:filled circle;text-emphasis-position:under right;font-weight:400}.heti--annotation em:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti--annotation em:not(:lang(zh)){-webkit-text-emphasis:none;text-emphasis:none}.heti--annotation .heti-meta{margin-block-start:12px;margin-block-end:24px}.heti .heti-meta{display:block;text-indent:0}.heti .heti-verse{text-align:center;text-indent:0}.heti .heti-large{font-size:18px;line-height:24px}.heti .heti-x-large{font-size:20px;line-height:30px;letter-spacing:.05em}.heti .heti-small{font-size:14px;line-height:24px}.heti .heti-x-small{font-size:12px;line-height:18px}.heti .heti-list-latin{list-style-type:upper-latin}.heti .heti-list-latin ol{list-style-type:lower-roman}.heti .heti-list-latin ol ol{list-style-type:lower-latin}.heti .heti-list-han{list-style-type:cjk-ideographic}.heti .heti-list-han ol{list-style-type:decimal}.heti .heti-list-han ol ol{list-style-type:decimal-leading-zero}.heti .heti-fn{margin-block-start:59px;border-block-start:1px solid;border-block-start-color:#ccc;font-size:14px;font-family:\"Helvetica Neue\",helvetica,arial,\"Heti Hei\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";line-height:24px}@media(prefers-color-scheme: dark){.heti .heti-fn{border-block-start-color:#404040}}.heti .heti-fn ol{margin-block-start:12px;margin-block-end:0}.heti .heti-fn li:target{background-color:#dbedff}@media(prefers-color-scheme: dark){.heti .heti-fn li:target{background-color:#3a6188}}.heti .heti-hang{position:absolute;line-height:inherit;text-indent:0}.heti .heti-em{-webkit-text-emphasis:filled circle;-webkit-text-emphasis-position:under;text-emphasis:filled circle;text-emphasis-position:under right}.heti .heti-em:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti .heti-em:not(:lang(zh)){-webkit-text-emphasis:none;text-emphasis:none}.heti .heti-ruby--inline{display:inline-flex;flex-direction:column-reverse;height:1.5em}.heti .heti-ruby--inline rt{display:inline;margin-bottom:-0.25em;line-height:1;text-align:center}.heti heti-spacing{display:inline}.heti heti-spacing+sup,.heti heti-spacing+sub{margin-inline-start:0}.heti .heti-spacing-start{margin-inline-end:.25em}.heti .heti-spacing-end{margin-inline-start:.25em}.heti heti-adjacent{display:inline}.heti .heti-adjacent-half{margin-inline-end:-0.5em}.heti .heti-adjacent-quarter{margin-inline-end:-0.25em}",
+    "tags": "$:/tags/Stylesheet",
+    "title": "$:/plugins/mabuqian/heti/中文排版css",
+    "modified": "20230209174906179",
+    "modifier": "马不前",
+    "type": "text/css",
+    "tmap.id": "1dfa776d-9536-4b39-89c0-2b748867c21d"
+},
+
+"$:/plugins/mabuqian/heti/dropdown": {
+    "created": "20230209162756774",
+    "creator": "马不前",
+    "text": "\\define toolbar-button-heti-inner()\n<$button tag=\"a\">\n\n<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"replace-selection\"\n\ttext={{$(snippetTitle)$}}\n/>\n\n<$action-deletetiddler $filter=<<dropdown-state>> />\n\n<$view tiddler=<<snippetTitle>> field=\"caption\" mode=\"inline\">\n\n<$view tiddler=<<snippetTitle>> field=\"title\" mode=\"inline\"/>\n\n</$view>\n\n</$button>\n\\end\n\n<$list filter=\"[all[shadows+tiddlers]tag[$:/plugins/mabuqian/heti/heti]!has[draft.of]sort[caption]]\" variable=\"snippetTitle\">\n\n<<toolbar-button-heti-inner>>\n\n</$list>\n\n\n----\n\n<$button tag=\"a\">\n\n<$action-navigate $to=\"$:/plugins/mabuqian/heti/ui/content\"/>\n\n<$action-deletetiddler $filter=<<dropdown-state>> />\n\n<em>\n\n<$text text={{$:/plugins/mabuqian/heti/ui/content!!caption}}/>\n\n</em>\n\n</$button>\n",
+    "tags": "",
+    "title": "$:/plugins/mabuqian/heti/dropdown",
+    "modified": "20230209180252323",
+    "modifier": "马不前",
+    "tmap.id": "ff9c3868-f2d2-4967-b61e-a3605465a91d"
+},
+
+"$:/plugins/mabuqian/heti/example/\u53E4\u8BD7\u8BCD\u793A\u4F8B": {
+    "created": "20230209120842799",
+    "creator": "马不前",
+    "text": "<div class=\"heti heti--poetry\">\n  <h2>九月九日忆山东兄弟<span class=\"heti-meta heti-small\">[唐]<abbr title=\"号摩诘居士\">王维</abbr></span></h2>\n  <p class=\"heti-x-large\">\n    独在异乡为异客<span class=\"heti-hang\">，</span><br>\n    每逢佳节倍思亲<span class=\"heti-hang\">。</span><br>\n    遥知兄弟登高处<span class=\"heti-hang\">，</span><br>\n    遍插茱萸少一人<span class=\"heti-hang\">。</span>\n  </p>\n</div>\n\n<div class=\"heti heti--ancient\">\n  <h2>一剪梅·红藕香残玉簟秋<span class=\"heti-meta heti-small\">[宋]<abbr title=\"号易安居士\">李清照</abbr></span></h2>\n  <p class=\"heti-verse heti-x-large\">\n    红藕香残玉簟秋。轻解罗裳，独上兰舟<span class=\"heti-hang\">。</span><br>\n    云中谁寄锦书来，雁字回时，月满西楼<span class=\"heti-hang\">。</span><br>\n    花自飘零水自流。一种相思，两处闲愁<span class=\"heti-hang\">。</span><br>\n    此情无计可消除，才下眉头，却上心头<span class=\"heti-hang\">。</span>\n  </p>\n</div>\n\n打开侧边栏时效果很惊艳，但关掉侧边栏就感觉没有完全居中，效果不是那么好。",
+    "tags": "$:/plugins/mabuqian/heti/ui/content",
+    "title": "$:/plugins/mabuqian/heti/example/古诗词示例",
+    "modified": "20230209180252324",
+    "modifier": "马不前",
+    "tmap.id": "67558871-34a1-4eaf-b489-436c5fa93644"
+},
+
+"$:/plugins/mabuqian/heti/example/\u53E4\u6587\u793A\u4F8B": {
+    "created": "20230209121122960",
+    "creator": "马不前",
+    "text": "这是没有加class，原本的效果。\n\n先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。\n\n宫中府中，俱为一体；陟罚臧否，不宜异同。若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理；不宜偏私，使内外异法也。\n\n侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下：愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。\n\n下面是加了class效果的。\n\n<div class=\"heti heti--ancient\">\n\n先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。\n\n宫中府中，俱为一体；陟罚臧否，不宜异同。若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理；不宜偏私，使内外异法也。\n\n侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下：愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。\n\n</div>",
+    "tags": "$:/plugins/mabuqian/heti/ui/content",
+    "title": "$:/plugins/mabuqian/heti/example/古文示例",
+    "modified": "20230209180252325",
+    "modifier": "马不前",
+    "tmap.id": "f8575e68-da2d-4924-8389-35229e96b80e"
+},
+
+"$:/plugins/mabuqian/heti/example/\u7AD6\u6392\u793A\u4F8B": {
+    "created": "20230209125334056",
+    "creator": "马不前",
+    "text": " <section class=\"heti--vertical heti--ancient\">\n              <h1>出師表</h1>\n              <p class=\"heti-small\">作者：<abbr title=\"字孔明\">諸葛亮</abbr>（181年－234年10月8日）</p>\n              <p>先帝創業未半，而中道崩殂；今天下三分，益州疲弊，此誠危急存亡之秋也﹗然侍衞之臣，不懈於內；忠志之士，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。</p>\n              <p>誠宜開張聖聽，以光先帝遺德，恢弘志士之氣﹔不宜妄自菲薄，引喻失義，以塞忠諫之路也。</p>\n              <p>宮中、府中，俱為一體；陟罰臧否，不宜異同。若有作姦、犯科，及為忠善者，宜付有司，論其刑賞，以昭陛下平明之治；不宜偏私，使內外異法也。</p>\n              <p>侍中、侍郎郭攸之、費禕、董允等，此皆良實，志慮忠純，是以先帝簡拔以遺陛下。愚以為宮中之事，事無大小，悉以咨之，然後施行，必能裨補闕漏，有所廣益。將軍向寵，性行淑均，曉暢軍事，試用於昔日，先帝稱之曰「能」，是以眾議舉寵為督。愚以為營中之事，悉以咨之，必能使行陣和睦，優劣得所。</p>\n\t\t\t\t\t\t\t竖排在太微里显示会超出单个条目容器大小。所以只选取了一部分。但理论上这个问题和表格溢出是一样的问题，可以被解决。但我能力不够，解决不了。\n            </section>",
+    "tags": "$:/plugins/mabuqian/heti/ui/content",
+    "title": "$:/plugins/mabuqian/heti/example/竖排示例",
+    "modified": "20230209180252325",
+    "modifier": "马不前",
+    "tmap.id": "43484be1-daef-468e-9e31-49fa71428ab3"
+},
+
+"$:/plugins/mabuqian/heti/example/\u884C\u95F4\u6CE8\u793A\u4F8B": {
+    "created": "20230209124724493",
+    "creator": "马不前",
+    "text": "<div class=\"heti heti--ancient heti--annotation\">\n<p>\n<u title=\"名丁的厨工。先秦古书往往以职业放在人名前\"><ruby><rb>庖</rb><rp>(</rp><rt lang=\"zh-Latn\">páo</rt><rp>)</rp></ruby>丁</u>为文惠君解牛，手之所触，肩之所倚，足之所履，膝之所<u title=\"支撑，接触\"><ruby><rb>踦</rb><rp>(</rp><rt lang=\"zh-Latn\">yǐ</rt><rp>)</rp></ruby></u>，<u title=\"砉然：砉，又读xū，象声词。砉然，皮骨相离的声音\"><ruby><rb>砉</rb><rp>(</rp><rt lang=\"zh-Latn\">huā</rt><rp>)</rp></ruby>然</u><ruby><rb>向</rb><rp>(</rp><rt lang=\"zh-Latn\">xiǎng</rt><rp>)</rp></ruby>然，奏刀<u title=\"騞然：象声词，形容比砉然更大的进刀解牛声\"><ruby><rb>騞</rb><rp>(</rp><rt lang=\"zh-Latn\">huō</rt><rp>)</rp></ruby>然</u>，莫不中音。合于《桑林》之舞，乃中《经首》之会。\n</p>\n</div>\n\n<div class=\"heti heti--ancient heti--annotation\">\n<u title=\"名丁的厨工。先秦古书往往以职业放在人名前\"><ruby><rb>庖</rb><rp>(</rp><rt lang=\"zh-Latn\">páo</rt><rp>)</rp></ruby>丁</u>\n</div>\n\n里面需要用到ruby，我不懂，使用时自行查找相关资料。",
+    "tags": "$:/plugins/mabuqian/heti/ui/content",
+    "title": "$:/plugins/mabuqian/heti/example/行间注示例",
+    "modified": "20230209181102320",
+    "modifier": "马不前",
+    "tmap.id": "9cca30e4-8eff-4a7b-ad89-3f4bbb1c44ea"
+},
+
+"$:/plugins/mabuqian/heti/icon": {
+    "created": "20230209151008996",
+    "creator": "马不前",
+    "text": "<svg class=\"tc-image-ghost tc-image-button\" width=\"22pt\" height=\"22pt\" fill-rule=\"evenodd\" stroke-miterlimit=\"1.414\" clip-rule=\"evenodd\" stroke-linejoin=\"round\" viewBox=\"0 0 16 16\"><path d=\"M6.403 12.8H.005V16h6.398v-3.2zm9.593 0H9.602V16h6.394v-3.2zm.002-6.4H0v3.2h15.998V6.4zM16 0h-3.2v3.2H16V0zM9.603 0H.005v3.2h9.598V0z\"/></svg>",
+    "title": "$:/plugins/mabuqian/heti/icon",
+    "tags": "$:/tags/Image",
+    "library": "svg-icon",
+    "collection": "simple",
+    "caption": "ghost",
+    "modified": "20230209175902634",
+    "modifier": "马不前",
+    "tmap.id": "db084c60-c403-4b5b-9770-e38245250aec"
+},
+
+"$:/plugins/mabuqian/heti/plugin.info": {
+    "created": "20230209120701940",
+    "creator": "马不前",
+    "title": "$:/plugins/mabuqian/heti/plugin.info",
+    "type": "application/json",
+    "text": "{\n    \"title\": \"$:/plugins/mabuqian/hete-zh\",\n    \"name\": \"中文样式排版\",\n    \"description\": \"更方便排版中文内容\",\n    \"author\": \"mabuqian\",\n    \"version\": \"\",\n    \"core-version\": \"5.2.6-prerelease-2022-12-20\",\n    \"source\": \"\",\n    \"list\": \"\",\n    \"parent-plugin\": \"\",\n    \"dependents\": \"\",\n    \"plugin-type\": \"plugin\",\n    \"packaged-by\": \"Gatha on 9th 二月 2023, 20:07:01\"\n}",
+    "modified": "20230209174907082",
+    "modifier": "马不前"
+},
+
+"$:/plugins/mabuqian/heti/readme": {
+    "created": "20230209120508593",
+    "creator": "马不前",
+    "text": "采用了[[hete项目|https://github.com/sivan/heti]]以及[[演示网址|https://sivan.github.io/heti/#example-verse]]\n\n! 赫蹏\n\n<<<\n赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。\n<<<\n\n有些样式我没有放示例进来，比如多栏显示。因为我觉得没必要。有些样式与太微自身存在问题，比如竖排，我怀疑是容器溢出，但我不知道如何解决。还有些，理论上居中了，但在具体条目里并没有完全居中，我怀疑是与底部css冲突了。但总体上是非常好看的。\n\n[[常用标签示例表|$:/plugins/mabuqian/heti/常用标签示例表]]\n\n这个里面一样可以用维基语法，比如诗词的作者就可以用链接的形式`[[]]`。竖排的问题，就用拆分成多个条目然后嵌入，相当于翻页了。效果还是可以的。说些题外话，以前见过外国用户，用太微做了一个圣经，非常好看。现在我们也可以用这个插件做一些古文版本的收集整理，方便更多的人学习传统文化。当然这需要更多的人去做。\n\n这应该是我做的第一个插件，后续应该不太需要更新。因为用户可以根据需要自己写相应标签。我做一个按钮只是方便直接使用。不过积累到不少的经验，还是很好的。再一次感谢xp教程的作者，从最开始学习太微就看xp教程，现在编写插件还是看xp教程。整个按钮就是模仿xp里的columns插件。大家有兴趣也可以仿照写一个自己的插件玩玩。",
+    "modified": "20230209183506385",
+    "modifier": "马不前",
+    "title": "$:/plugins/mabuqian/heti/readme"
+},
+
+"$:/plugins/mabuqian/heti/template/\u8BCD\u66F2": {
+    "created": "20230209151454597",
+    "creator": "马不前",
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"insert-text\"\n\ttext=\"\"\"<div class=\"heti heti--ancient\">\n<h2>xxx</h2>\n<p class=\"heti-verse heti-x-large\">\nxx<span class=\"heti-hang\">。</span><br>\nxx<span class=\"heti-hang\">。</span><br>\nxx<span class=\"heti-hang\">。</span><br>\nxx<span class=\"heti-hang\">。</span>\n</p>\n</div>\"\"\"\n/>\n",
+    "title": "$:/plugins/mabuqian/heti/template/词曲",
+    "tags": "$:/plugins/mabuqian/heti/heti",
+    "icon": "$:/plugins/mabuqian/hete-zh/icon/表示词曲",
+    "caption": "词曲模板",
+    "description": "嵌入词曲模板",
+    "condition": "[<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]",
+    "condition-disabled": "[[$:/temp/bold/disabled]get[state-disabled]else[no]]",
+    "modified": "20230209175355683",
+    "modifier": "马不前",
+    "tmap.id": "25f4e10d-0217-4bf6-80b2-a494f8392920"
+},
+
+"$:/plugins/mabuqian/heti/template/\u53E4\u8BD7": {
+    "created": "20230209151443225",
+    "creator": "马不前",
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"insert-text\"\n\ttext=\"\"\"<div class=\"heti heti--poetry\">\n  <h2>xxx</h2>\n  <p class=\"heti-x-large\">\n   xx<span class=\"heti-hang\">，</span><br>\n   xx<span class=\"heti-hang\">。</span><br>\n   xx<span class=\"heti-hang\">，</span><br>\n   xx<span class=\"heti-hang\">。</span>\n  </p>\n</div>\"\"\"\n/>\n",
+    "title": "$:/plugins/mabuqian/heti/template/古诗",
+    "tags": "$:/plugins/mabuqian/heti/heti",
+    "icon": "$:/plugins/mabuqian/hete-zh/icon/表示诗歌",
+    "caption": "古诗模板",
+    "description": "嵌入古诗模板",
+    "condition": "[<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]",
+    "condition-disabled": "[[$:/temp/bold/disabled]get[state-disabled]else[no]]",
+    "modified": "20230209180431917",
+    "modifier": "马不前",
+    "tmap.id": "25f4e10d-0217-4bf6-80b2-a494f8392920"
+},
+
+"$:/plugins/mabuqian/heti/template/\u53E4\u6587": {
+    "created": "20230209134032752",
+    "creator": "BramChen",
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"insert-text\"\n\ttext=\"\"\"<div class=\"heti heti--ancient\">\n\t\n\t\n</div>\"\"\"\n/>\n",
+    "title": "$:/plugins/mabuqian/heti/template/古文",
+    "tags": "$:/plugins/mabuqian/heti/heti",
+    "icon": "$:/plugins/mabuqian/hete-zh/icon/表示古文",
+    "caption": "古文模板",
+    "description": "嵌入古文模板",
+    "condition": "[<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]",
+    "condition-disabled": "[[$:/temp/bold/disabled]get[state-disabled]else[no]]",
+    "modified": "20230209180401669",
+    "modifier": "马不前",
+    "tmap.id": "25f4e10d-0217-4bf6-80b2-a494f8392920"
+},
+
+"$:/plugins/mabuqian/heti/template/\u7AD6\u6392": {
+    "created": "20230209151449455",
+    "creator": "马不前",
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"insert-text\"\n\ttext=\"\"\" <section class=\"heti--vertical heti--ancient\">\n\t\n\t\n </section>\"\"\"\n/>\n",
+    "title": "$:/plugins/mabuqian/heti/template/竖排",
+    "tags": "$:/plugins/mabuqian/heti/heti",
+    "icon": "$:/plugins/mabuqian/hete-zh/icon/表示竖排",
+    "caption": "竖排模板",
+    "description": "嵌入竖排模板",
+    "condition": "[<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]",
+    "condition-disabled": "[[$:/temp/bold/disabled]get[state-disabled]else[no]]",
+    "modified": "20230209175355683",
+    "modifier": "马不前",
+    "tmap.id": "25f4e10d-0217-4bf6-80b2-a494f8392920"
+},
+
+"$:/plugins/mabuqian/heti/template/\u884C\u95F4\u6CE8": {
+    "created": "20230209181504170",
+    "creator": "马不前",
+    "text": "<div class=\"heti heti--ancient heti--annotation\">\n<u title=\"要解释的字\">\n<ruby>\n<rb>字</rb>\n<rp>(</rp>\n<rt lang=\"zh-Latn\">读音</rt>\n<rp>)</rp>\n</ruby>\n</u>\n</div>",
+    "tags": "$:/plugins/mabuqian/heti/heti",
+    "title": "$:/plugins/mabuqian/heti/template/行间注",
+    "modified": "20230209181617721",
+    "modifier": "马不前",
+    "caption": "行间注"
+},
+
+"$:/plugins/mabuqian/heti/ui/content": {
+    "created": "20230209163054263",
+    "creator": "马不前",
+    "text": "\\define dropdown-columns-hete()\n<$select tiddler=\"$:/plugins/mabuqian/heti/ui/content/text\">\n<option value=\"{{$:/plugins/mabuqian/heti/example/行间注示例}}\">行间注示例</option>\n<option value=\"{{$:/plugins/mabuqian/heti/example/古文示例}}\">古文示例</option>\n<option value=\"{{$:/plugins/mabuqian/heti/example/古诗词示例}}\">古诗词示例</option>\n<option value=\"{{$:/plugins/mabuqian/heti/example/竖排示例}}\">竖排示例</option>\n</$select>\n\\end\n\n\n<div style=\"\n\tmargin-bottom: 1rem;\n\tpadding: 10px 28px;\n\tborder-radius: 5px;\n\tbox-shadow: 0.5px 1px 17px -8px #A3A5AE;\">\n\n预览 <<dropdown-columns-hete>> 的效果：\n\n</div>\n\n{{$:/plugins/mabuqian/heti/ui/content/text}}",
+    "title": "$:/plugins/mabuqian/heti/ui/content",
+    "modified": "20230209180632791",
+    "modifier": "马不前",
+    "tmap.id": "9fc021eb-ba6b-45f1-bb0e-8538e31ab974",
+    "caption": "See examples"
+},
+
+"$:/plugins/mabuqian/heti/ui/content/text": {
+    "created": "20230209163926852",
+    "creator": "马不前",
+    "title": "$:/plugins/mabuqian/heti/ui/content/text",
+    "text": "{{$:/plugins/mabuqian/heti/example/竖排示例}}",
+    "modified": "20230209180333750",
+    "modifier": "马不前",
+    "tmap.id": "3e9ec389-571e-4efe-97e0-46d42e6ac8bd"
+},
+
+"$:/plugins/mabuqian/heti/ui/EditorToolbar/heti": {
+    "created": "20230209161808850",
+    "creator": "马不前",
+    "text": "",
+    "title": "$:/plugins/mabuqian/heti/ui/EditorToolbar/heti",
+    "tags": "$:/tags/EditorToolbar",
+    "icon": "$:/plugins/mabuqian/heti/icon",
+    "caption": "古文排版",
+    "description": "古文排版",
+    "condition": "[<targetTiddler>]",
+    "dropdown": "$:/plugins/mabuqian/heti/dropdown",
+    "modified": "20230209180053839",
+    "modifier": "马不前"
+}}
+}
